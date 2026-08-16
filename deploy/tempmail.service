@@ -1,0 +1,15 @@
+[Unit]
+Description=Temp Mail Flask (socketio + eventlet)
+After=network.target
+
+[Service]
+User=vmail
+Group=vmail
+WorkingDirectory=/opt/tempmail
+Environment=TEMPMAIL_SECRET=CHANGE_ME_GENERATE_RANDOM
+ExecStart=/opt/tempmail/venv/bin/python app.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
