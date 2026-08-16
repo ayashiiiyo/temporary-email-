@@ -2,7 +2,9 @@
 
 A disposable email service with real-time WebSocket push, built on Cloudflare Email Routing + Workers and a lightweight Flask backend. No Postfix, no Dovecot, no open port 25 on the VPS.
 
-![flowchart](https://img.shields.io/badge/architecture-Cloudflare%20%2B%20VPS-blueviolet) ![expiry](https://img.shields.io/badge/inbox%20TTL-10%20minutes-pink) ![license](https://img.shields.io/badge/license-MIT-green)
+![demo](https://img.shields.io/badge/demo-live-brightgreen) ![architecture](https://img.shields.io/badge/architecture-Cloudflare%20%2B%20VPS-blueviolet) ![expiry](https://img.shields.io/badge/inbox%20TTL-10%20minutes-pink) ![license](https://img.shields.io/badge/license-MIT-green)
+
+**Live Demo:** https://email.takahasii.my.id
 
 ---
 
